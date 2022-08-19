@@ -1,0 +1,38 @@
+.container {
+  background-color: #2e323f;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.listHolder {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  border-radius: 55px;
+  background-color: #a59678;
+  padding: 0.2rem 1rem;
+  box-sizing: content-box;
+}
+
+@media (min-width: 800px) {
+  .hide {
+    display: initial;
+  }
+}

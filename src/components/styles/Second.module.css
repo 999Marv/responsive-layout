@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: rgba(228, 212, 212, 0.244);
+}
+
+.secondContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.h3 {
+  color: #a59678;
+}
+
+@media (min-width: 800px) {
+  .secondContainer {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .secondContainer {
+    flex-direction: row;
+    max-width: 900px;
+  }
+}

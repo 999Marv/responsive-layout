@@ -1,0 +1,53 @@
+.container {
+  padding: 2rem 0;
+}
+
+.cont2 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding-bottom: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.h2 {
+  color: #a59678;
+  padding-bottom: 0.75rem;
+}
+.sec {
+  padding-bottom: 1.25rem;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 1rem;
+  max-width: 400px;
+}
+
+.dark {
+  background-color: #2e323f;
+  color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+.h3 {
+  padding-bottom: 0.5rem;
+}
+
+@media (min-width: 1100px) {
+  .cont2 {
+    flex-direction: row;
+  }
+
+  .main {
+    max-width: 500px;
+  }
+}
